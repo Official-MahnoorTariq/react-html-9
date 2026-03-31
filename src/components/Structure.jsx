@@ -1,0 +1,19 @@
+export default function Structure(){
+    return(
+        <>
+        <ul>
+           <ul><li>Boilerplate</li></ul> 
+            <ul>
+                <ol>
+                <li>Doctype</li>
+                <li>Html</li>
+                <li>Head</li>
+                <ol><li>Title</li>
+                </ol>             
+                <li>Body</li>
+            </ol>
+            </ul>
+        </ul>               
+        </>
+    );
+}
